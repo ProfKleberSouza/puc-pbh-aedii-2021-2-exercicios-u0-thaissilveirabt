@@ -1,8 +1,14 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
+int num; 
+int vetor[10];
+int i=0; 
+for (i=0; i < 10; i++) {
+  scanf("%d\n", &vetor[i]); 
+}
+for (int j = 9; j > -1; j--){
+  printf("%d\n", vetor[j]); 
+}
    return 0;
 }

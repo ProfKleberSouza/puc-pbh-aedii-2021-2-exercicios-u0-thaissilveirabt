@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+  int num, xvetor[10], MAIOR, MENOR;
+  printf ("digite um numero: ");
+  scanf ("%d", &num); 
+  for (int i=0; i < num; i++){
+    scanf ("%d", &xvetor[i]);  
+  }
+
+
+
+  return 0; 
 }
+    
